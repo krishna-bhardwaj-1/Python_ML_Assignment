@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(163, 208, 248);
+}
+
+h1{
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 60px;
+    color: rgb(237, 38, 38);
+}
+.container{
+    margin: auto;
+    margin-top: 60px;
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 5px 90px rgb(205, 112, 112);
+}
+
+.innerbox{
+    /* width: 100px; */
+    border: 1px solid black;
+    background-color: wheat;
+    padding-top: 35px;
+    padding-left: 60px;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.innerbox:hover{
+    background-color: rgb(150, 241, 171);
+    cursor: pointer;
+}
+.krishna{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    background-color: rgb(58, 40, 17);
+    color: white;
+}
+
+.message{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: blue;
+    color: wheat;
+    font-size: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: rgb(27, 27, 209);
+    font-size: 18px;
+}
+.control{
+    /* align-items: center; */
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
